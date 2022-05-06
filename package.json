@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "mysql2": "^2.3.3"
+  },
+  "name": "cypress-mysql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "cypress": "^9.6.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mateus",
+  "license": "MIT",
+  "description": ""
+}

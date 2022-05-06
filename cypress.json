@@ -1,0 +1,10 @@
+{   
+    "env":{
+        "db": {
+        "host": "localhost",
+        "user": "root",
+        "password": "Mateus04122000",
+        "port": "3306"
+        }
+    }
+}
