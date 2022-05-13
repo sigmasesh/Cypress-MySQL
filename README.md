@@ -24,8 +24,8 @@ Você ira precisar ter em sua máquina as seguintes ferramentas:
 
 - Acesse a pasta do projeto no CMD:
 'cd testepichau/cypress/integration'
-- Instale as dependências:
-'npm install --save-dev cypress' 
+- Instale as dependências: <br>
+'npm install --save-dev cypress' <br>
 'npm install --save-dev mysql2'
 - Abra o Cypress:
 'npx cypress open'
