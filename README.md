@@ -25,8 +25,8 @@ Você ira precisar ter em sua máquina as seguintes ferramentas:
 - Acesse a pasta do projeto no CMD:
 'cd testepichau/cypress/integration'
 - Instale as dependências: <br>
-'npm install --save-dev cypress' <br>
-'npm install --save-dev mysql2'
+'npm install cypress' <br>
+'npm install mysql2'
 - Abra o Cypress:
 'npx cypress open'
 - Execute o arquivo 'mysql.spec.js'
