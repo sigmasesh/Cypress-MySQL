@@ -23,7 +23,7 @@ Você ira precisar ter em sua máquina as seguintes ferramentas:
 '$ git clone Cypress-MySQL'
 
 - Acesse a pasta do projeto no CMD:
-'cd testepichau/cypress/integration'
+'cd mysql cypress/cypress/integration'
 - Instale as dependências: <br>
 'npm install cypress' <br>
 'npm install mysql2'
