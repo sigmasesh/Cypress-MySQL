@@ -10,7 +10,8 @@
     "pg": "^8.7.3"
   },
   "scripts": {
-    "test": ""
+    "test": "",
+    "build": ""
   },
   "author": "mateus",
   "license": "MIT",
