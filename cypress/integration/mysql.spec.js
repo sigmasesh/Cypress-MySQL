@@ -1,12 +1,9 @@
-describe('Acessar banco de dados MySQL', ()=> {
-    it('Acesso', function(){
-        cy.task(
-            "queryDb",
-            `SELECT * FROM banco.categorias`
-          ).then(count => {
-            expect(count).to.have.lengthOf(7);
-          });
-    })
+describe('Acessar banco de dados MySQL', () => {
+  const queryQ = `select * from pedidos as p left join produtos as pr on pr.ID_Produto = pr.ID_Produto`
+  it('Left Join', function () {
+    cy.task("queryDb", queryQ)
+  })
+})
 
-    })
-
+   
+  

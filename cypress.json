@@ -4,7 +4,8 @@
         "host": "localhost",
         "user": "root",
         "password": "Mateus04122000",
-        "port": "3306"
+        "port": "3306",
+        "database": "banco"
         }
     }
 }

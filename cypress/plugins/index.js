@@ -1,21 +1,22 @@
-const mysql = require("mysql2");
+const mysql2 = require("mysql2");
 function queryTestDb(query, config) {
-  const connection = mysql.createConnection(config.env.db);
+  const connection = mysql2.createConnection(config.env.db); 
   connection.connect();
-  return new Promise((resolve, reject) => {
+  return new Promise((resolve, reject) => { 
     connection.query(query, (error, results) => {
-      if (error) reject(error);
-      else {
-        connection.end();
+      if (error) reject(error)
+      else{
+        connection.end(); 
         return resolve(results);
       }
+      }) 
     });
-  });
-}
+  };
+
 
 module.exports = (on, config) => {
   on("task", {
-    queryDb: query => {
+    queryDb: (query) => {
       return queryTestDb(query, config);
     }
   });
