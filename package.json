@@ -10,7 +10,7 @@
     "pg": "^8.7.3"
   },
   "scripts": {
-    "test": "",
+    "test": "npm start",
     "build": ""
   },
   "author": "mateus",
