@@ -10,7 +10,7 @@
     "pg": "^8.7.3"
   },
   "scripts": {
-    "test": "npm start",
+    "test": "npx cypress open",
     "build": ""
   },
   "author": "mateus",
