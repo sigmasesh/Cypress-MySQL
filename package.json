@@ -11,7 +11,8 @@
   },
   "scripts": {
     "test": "npx cypress open",
-    "build": ""
+    "build": "",
+    "start":"npm start"
   },
   "author": "mateus",
   "license": "MIT",
